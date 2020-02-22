@@ -1,6 +1,68 @@
 body {
-    font-family: sans-serif;
-    background-color: aquamarine;
+    font-family: STIXIntegralsD;
+    background-color: #E88774;
     margin: 0;
     padding: 0;
+}
+
+
+
+.title {
+    background-color: lightsalmon;
+    font-size: 50px;
+    line-height: 12vh;
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    background-color: lightskyblue;
+    font-size: 30px;
+    line-height: 9vh;
+    margin: 0;
+    padding: 0;
+}
+
+.poem {
+    width: 60vw;
+    height: 200vh;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.stanza_1 {
+    background-color: lightsalmon ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.stanza_2 {
+    background-color: lightsalmon;
+    height: 67vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fact {
+    background-color: lightskyblue;
+    margin-top: -110vh;
+    margin-left: 20vw;
+    margin-right: 55vw;
+    padding: 2px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-color: lightskyblue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
 }
