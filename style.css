@@ -1,6 +1,6 @@
 body {
     font-family: STIXIntegralsD;
-    background-color: #E88774;
+    background-color: #BC5104;
     margin: 0;
     padding: 0;
 }
@@ -8,61 +8,148 @@ body {
 
 
 .title {
-    background-color: lightsalmon;
+    background-color: #E69B0C;
     font-size: 50px;
     line-height: 12vh;
     margin: 0;
     padding: 0;
+    color: #EFEF1F;
+    margin-top: -27px;
+    margin-left: 12.5vw;
+    width: 500vw;
 }
 
 .author {
-    background-color: lightskyblue;
+    background-color: BC5104;
     font-size: 30px;
     line-height: 9vh;
     margin: 0;
     padding: 0;
+    color: #E5A15C;
+    margin-left: 15vw;
+    margin-top: -22px;
 }
 
 .poem {
     width: 60vw;
-    height: 200vh;
     margin: auto;
   
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr 5fr;
     grid-gap: 40px;
 }
 
 .stanza_1 {
-    background-color: lightsalmon ;
+    background-color: BC5104 ;
     height: 86vh;
     padding-right: 10px;
     padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
 }
 
 .stanza_2 {
-    background-color: lightsalmon;
-    height: 67vh;
+    background-color: BC5104 ;
+    height: 86vh;
     padding-right: 10px;
     padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
 }
+
+.stanza_3 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_4 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_5 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_6 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_7 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_8 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+.stanza_9 {
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
+}
+
+
 
 .fact {
-    background-color: lightskyblue;
-    margin-top: -110vh;
-    margin-left: 20vw;
-    margin-right: 55vw;
-    padding: 2px;
+    background-color: BC5104 ;
+    height: 86vh;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    padding-top: 100px;
+    color: white;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
-      background-color: lightskyblue;
+      background-color: red;
     }
-}
+  }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     body {
-        background-color: lightgoldenrodyellow;
+      background-color: darkred;
     }
-}
+  }
+

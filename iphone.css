@@ -1,0 +1,51 @@
+body {
+    font-family: STIXIntegralsD;
+    background-color: goldenrod;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: green;
+    font-size: 50px;
+    line-height: 12vh;
+    color: orangered;
+    margin-top: -70px;
+    margin-left: 15vw;
+}
+
+.author {
+    background-color: BC5104;
+    font-size: 30px;
+    line-height: 9vh;
+    color: blue;
+    margin-left: 30vw;
+    margin-top: -60px;
+}
+
+.poem {
+    width: 40vw;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+}
+
+.stanza-1 {
+    background-color: BC5104 ;
+    width: 70vw;
+    padding-top: 100px;
+    color: white;
+    margin-top: -16vh;
+    margin-left: -14vw;
+}
+
+.fact {
+    background-color: BC5104 ;
+    width: 30vw;
+    padding-top: 100px;
+    color: #573A1C;
+    margin-top: -10vh;
+    margin-left: 0;
+}
