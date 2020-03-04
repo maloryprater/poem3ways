@@ -1,25 +1,26 @@
 body {
     font-family: STIXIntegralsD;
-    background-color: goldenrod;
+    background-color: #38362B;
     margin: 0;
     padding: 0;
 }
 
 .title {
-    background-color: green;
-    font-size: 50px;
+    background-color: #38362B;
+    font-size: 40px;
     line-height: 12vh;
-    color: orangered;
-    margin-top: -70px;
+    color: #EFEF1F;
+    margin-top: -10vh;
     margin-left: 15vw;
+    padding-top: 50px;
 }
 
 .author {
     background-color: BC5104;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 9vh;
-    color: blue;
-    margin-left: 30vw;
+    color: #F08E28;
+    margin-left: 53vw;
     margin-top: -60px;
 }
 
@@ -45,7 +46,7 @@ body {
     background-color: BC5104 ;
     width: 30vw;
     padding-top: 100px;
-    color: #573A1C;
+    color: #F08E28;
     margin-top: -10vh;
     margin-left: 0;
 }
